@@ -25,15 +25,25 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-bottom: 20px;
         }
-        .header img {
+        .header .brain-icon {
             width: 50px;
             height: 50px;
+            background-color: #ffcc80;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #f44336;
             margin-right: 10px;
         }
         .header h1 {
             font-size: 2em;
             margin: 0;
+            color: #00796b;
         }
         .sub-header {
             font-size: 1.2em;
@@ -41,13 +51,21 @@
         }
         .content {
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
         }
-        .content img {
+        .content .icon {
             width: 50px;
             height: 50px;
+            background-color: #4dd0e1;
             margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #ffffff;
+            border-radius: 5px;
         }
         .topics {
             margin: 20px 0;
@@ -63,6 +81,7 @@
         .topics ul li {
             font-size: 1.2em;
             margin: 5px 0;
+            color: #ff4081;
         }
         .grades {
             margin: 20px 0;
@@ -71,24 +90,32 @@
             font-size: 1.5em;
             margin-bottom: 10px;
         }
+        .grades p {
+            font-size: 1.2em;
+            background-color: #4dd0e1;
+            padding: 5px 10px;
+            display: inline-block;
+            border-radius: 5px;
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <img src="brain_with_crown.png" alt="Brain with Crown">
+            <div class="brain-icon">🧠</div>
             <h1>Sparks2Smart</h1>
         </div>
         <div class="sub-header">
             A Non-Profit Organization for teaching STEM-related topics
         </div>
         <div class="content">
-            <img src="plus_sign.png" alt="Plus Sign">
-            <img src="equal_sign.png" alt="Equal Sign">
-            <img src="minus_sign.png" alt="Minus Sign">
-            <img src="times_sign.png" alt="Times Sign">
-            <img src="pencil.png" alt="Pencil">
-            <img src="speaker.png" alt="Speaker">
+            <div class="icon">+</div>
+            <div class="icon">=</div>
+            <div class="icon">-</div>
+            <div class="icon">×</div>
+            <div class="icon">✏️</div>
+            <div class="icon">🗣️</div>
         </div>
         <div class="topics">
             <h2>For Topics Such As:</h2>
